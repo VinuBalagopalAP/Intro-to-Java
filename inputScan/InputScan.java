@@ -8,6 +8,7 @@ public class InputScan {
         System.out.println("Enter a number: ");
         int n = scan.nextInt();
         System.out.println("Enter a name: ");
+        scan.close();
         String name = scan.nextLine();
 
         for (int i = 0; i < n; i++) {

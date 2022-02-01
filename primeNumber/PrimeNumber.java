@@ -10,6 +10,7 @@ public class PrimeNumber {
         System.out.println("Enter a number: ");
 
         int n = scan.nextInt();
+        scan.close();
         int i, flag = 0;
         for (i = 2; i <= n / 2; i++) {
             if (n % i == 0) {
